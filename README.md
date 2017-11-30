@@ -109,7 +109,7 @@ meters, fixing individual parameters, etc.
 
 * BusyFit 0.3.1
   * Released 29/11/2017
-  * Fixed a bug that resulted in SoFiA crashing under GSL 2.0 or higher
+  * Fixed a bug that resulted in BusyFit crashing under GSL 2.0 or higher
     due to the Jacobian matrix being assigned the wrong dimensions.
 * BusyFit 0.3
   * Released 12/09/2017
