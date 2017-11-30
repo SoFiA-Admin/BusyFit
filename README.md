@@ -41,18 +41,20 @@ To install BusyFit on your computer, open a terminal window and change to
 the folder where the downloaded archive was saved. To unpack the archive,
 type
 
-    unzip BusyFit-master.zip
+    unzip BusyFit-[version].zip
 
 or
 
-    tar -zxvf BusyFit-master.tar.gz
+    tar -zxvf BusyFit-[version].tar.gz
 
-This will unpack all files into a new directory called `BusyFit-master`.
+where `[version]` is either the version number of BusyFit  (e.g. `0.3.1`)
+or `master`  if the latest development version has been downloaded.  This
+will unpack all files into a new directory called `BusyFit-[version]`.
 
 Assuming that the GNU Scientific Library is installed at a location where
 it can be found  by the compiler  and linker,  BusyFit can then simply be
 compiled  by  running the  `compile.sh`  shell  script  coming  with this
-package. Change into the new `BusyFit-master` directory and type
+package. Change into the new `BusyFit-[version]` directory and type
 
     chmod 764 compile.sh
     ./compile.sh
