@@ -138,6 +138,8 @@ the Busy Function:
 > Westmeier, T., Jurek, R., Obreschkow, D., Koribalski, B. S.,
 > Staveley-Smith L., 2014, MNRAS, 438, 1176
 
+> http://adsabs.harvard.edu/abs/2014MNRAS.438.1176W
+
 BusyFit is free software:  you can redistribute it and/or modify it under
 the terms  of the  GNU General Public License  as published  by the  Free
 Software Foundation, either version 3 of the License, or (at your option)
