@@ -1,0 +1,5 @@
+# Object code
+*.o
+
+# Executable
+busyfit
