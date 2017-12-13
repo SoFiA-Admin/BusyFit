@@ -38,7 +38,7 @@
 #include <ctime>        // Needed for seed of random number generator.
 #include <cstdlib>      // Needed for random number generator.
 
-#include "helperFunctions.h"
+#include "helperFunctions.hpp"
 
 
 

@@ -35,8 +35,8 @@
 #include <cmath>
 #include <cstdlib>      // Needed to invoke gnuplot via system().
 
-#include "helperFunctions.h"
-#include "BusyFit.h"
+#include "helperFunctions.hpp"
+#include "BusyFit.hpp"
 
 
 

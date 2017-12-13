@@ -1,6 +1,6 @@
 /// ____________________________________________________________________ ///
 ///                                                                      ///
-/// BusyFit 0.3.1 (BusyFit.h) - Busy Function fitting programme          ///
+/// BusyFit 0.3.1 (BusyFit.hpp) - Busy Function fitting programme        ///
 /// Copyright (C) 2017 Tobias Westmeier                                  ///
 /// ____________________________________________________________________ ///
 ///                                                                      ///
@@ -29,8 +29,8 @@
 /// ____________________________________________________________________ ///
 ///                                                                      ///
 
-#ifndef BUSYFIT_H
-#define BUSYFIT_H
+#ifndef BUSYFIT_HPP
+#define BUSYFIT_HPP
 
 #include <gsl/gsl_version.h>
 #include <gsl/gsl_rng.h>

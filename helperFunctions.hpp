@@ -1,36 +1,36 @@
-/// ____________________________________________________________________ ///
-///                                                                      ///
-/// BusyFit 0.3.1 (helperFunctions.h) - Busy Function fitting programme  ///
-/// Copyright (C) 2017 Tobias Westmeier                                  ///
-/// ____________________________________________________________________ ///
-///                                                                      ///
-/// Address:  Tobias Westmeier                                           ///
-///           ICRAR M468                                                 ///
-///           The University of Western Australia                        ///
-///           35 Stirling Highway                                        ///
-///           Crawley WA 6009                                            ///
-///           Australia                                                  ///
-///                                                                      ///
-/// E-mail:   tobias.westmeier (at) uwa.edu.au                           ///
-/// ____________________________________________________________________ ///
-///                                                                      ///
-/// This program is free software: you can redistribute it and/or modify ///
-/// it under the terms of the GNU General Public License as published by ///
-/// the Free Software Foundation, either version 3 of the License, or    ///
-/// (at your option) any later version.                                  ///
-///                                                                      ///
-/// This program is distributed in the hope that it will be useful,      ///
-/// but WITHOUT ANY WARRANTY; without even the implied warranty of       ///
-/// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the         ///
-/// GNU General Public License for more details.                         ///
-///                                                                      ///
-/// You should have received a copy of the GNU General Public License    ///
-/// along with this program. If not, see http://www.gnu.org/licenses/.   ///
-/// ____________________________________________________________________ ///
-///                                                                      ///
+/// _____________________________________________________________________ ///
+///                                                                       ///
+/// BusyFit 0.3.1 (helperFunctions.hpp) - Busy Function fitting programme ///
+/// Copyright (C) 2017 Tobias Westmeier                                   ///
+/// _____________________________________________________________________ ///
+///                                                                       ///
+/// Address:  Tobias Westmeier                                            ///
+///           ICRAR M468                                                  ///
+///           The University of Western Australia                         ///
+///           35 Stirling Highway                                         ///
+///           Crawley WA 6009                                             ///
+///           Australia                                                   ///
+///                                                                       ///
+/// E-mail:   tobias.westmeier (at) uwa.edu.au                            ///
+/// _____________________________________________________________________ ///
+///                                                                       ///
+/// This program is free software: you can redistribute it and/or modify  ///
+/// it under the terms of the GNU General Public License as published by  ///
+/// the Free Software Foundation, either version 3 of the License, or     ///
+/// (at your option) any later version.                                   ///
+///                                                                       ///
+/// This program is distributed in the hope that it will be useful,       ///
+/// but WITHOUT ANY WARRANTY; without even the implied warranty of        ///
+/// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          ///
+/// GNU General Public License for more details.                          ///
+///                                                                       ///
+/// You should have received a copy of the GNU General Public License     ///
+/// along with this program. If not, see http://www.gnu.org/licenses/.    ///
+/// _____________________________________________________________________ ///
+///                                                                       ///
 
-#ifndef HELPERFUNCTIONS_H
-#define HELPERFUNCTIONS_H
+#ifndef HELPERFUNCTIONS_HPP
+#define HELPERFUNCTIONS_HPP
 
 #define TRIM_BOTH  0
 #define TRIM_LEFT  1

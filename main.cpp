@@ -35,8 +35,8 @@
 #include <vector>
 #include <algorithm>
 
-#include "helperFunctions.h"
-#include "BusyFit.h"
+#include "helperFunctions.hpp"
+#include "BusyFit.hpp"
 
 int main(int argc, char *argv[]);
 int printHelpMessage();
