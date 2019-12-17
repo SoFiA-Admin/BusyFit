@@ -31,9 +31,9 @@
 #///                                                                      ///
 
 echo "Compiling BusyFit..."
-g++ -pedantic -Wall -O3 -c helperFunctions.cpp
-g++ -pedantic -Wall -O3 -c BusyFit.cpp
-g++ -pedantic -Wall -O3 -o busyfit helperFunctions.o BusyFit.o main.cpp -lgsl -lgslcblas
+g++ -pedantic -Wall -Wextra -O3 -c helperFunctions.cpp
+g++ -pedantic -Wall -Wextra -O3 -c BusyFit.cpp
+g++ -pedantic -Wall -Wextra -O3 -o busyfit helperFunctions.o BusyFit.o main.cpp -lgsl -lgslcblas
 #rm -f BusyFit.o
 #rm -f helperFunctions.o
 echo "Done."

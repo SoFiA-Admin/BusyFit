@@ -179,7 +179,7 @@ int BusyFit::fit()
 	
 	rightFlank = currentPos;
 	
-	if(leftFlank >= 0 and rightFlank - leftFlank > 2)
+	if(rightFlank - leftFlank > 2)
 	{
 		initialEstimates[4] = static_cast<double>(rightFlank + leftFlank) / 2.0;
 		initialEstimates[5] = initialEstimates[4];
