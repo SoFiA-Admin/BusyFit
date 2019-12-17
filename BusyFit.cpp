@@ -597,7 +597,7 @@ int BusyFit::getParametersUncertainties(double &posX, double &w50, double &w20, 
 			getParameters(tmp_posX, tmp_w50, tmp_w20, tmp_Fpeak, tmp_Fint);
 			
 			// Ensure that results are meaningful:
-			if(!isnan(tmp_posX) and !isinf(tmp_posX) and !isnan(tmp_w50) and !isinf(tmp_w50) and !isnan(tmp_w20) and !isinf(tmp_w20) and !isnan(tmp_Fpeak) and !isinf(tmp_Fpeak) and !isnan(tmp_Fint) and !isinf(tmp_Fint) and freeParameters[0] > 0.0 and freeParameters[1] > 0.0 and freeParameters[2] > 0.0 and freeParameters[3] >= 0.0 and freeParameters[6] > 0.0)
+			if(!std::isnan(tmp_posX) and !std::isinf(tmp_posX) and !std::isnan(tmp_w50) and !std::isinf(tmp_w50) and !std::isnan(tmp_w20) and !std::isinf(tmp_w20) and !std::isnan(tmp_Fpeak) and !std::isinf(tmp_Fpeak) and !std::isnan(tmp_Fint) and !std::isinf(tmp_Fint) and freeParameters[0] > 0.0 and freeParameters[1] > 0.0 and freeParameters[2] > 0.0 and freeParameters[3] >= 0.0 and freeParameters[6] > 0.0)
 			{
 				stddev_posX  += (tmp_posX  - posX)  * (tmp_posX  - posX);
 				stddev_w50   += (tmp_w50   - w50)   * (tmp_w50   - w50);
