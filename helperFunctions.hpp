@@ -1,7 +1,7 @@
 /// _____________________________________________________________________ ///
 ///                                                                       ///
-/// BusyFit 0.3.1 (helperFunctions.hpp) - Busy Function fitting programme ///
-/// Copyright (C) 2017 Tobias Westmeier                                   ///
+/// BusyFit 0.3.2 (helperFunctions.hpp) - Busy Function fitting programme ///
+/// Copyright (C) 2019 Tobias Westmeier                                   ///
 /// _____________________________________________________________________ ///
 ///                                                                       ///
 /// Address:  Tobias Westmeier                                            ///

@@ -47,7 +47,7 @@ or
 
     tar -zxvf BusyFit-[version].tar.gz
 
-where `[version]` is either the version number of BusyFit  (e.g. `0.3.1`)
+where `[version]` is either the version number of BusyFit  (e.g. `0.3.2`)
 or `master`  if the latest development version has been downloaded.  This
 will unpack all files into a new directory called `BusyFit-[version]`.
 
@@ -109,6 +109,11 @@ meters, fixing individual parameters, etc.
 ## Version history
 
 
+* BusyFit 0.3.2
+  * Released 17/12/2019
+  * Fixed a bug that resulted in BusyFit failing to compile on some
+    machines and compilers due to missing `std::` prefix before `isnan()`
+    and `isinf()`.
 * BusyFit 0.3.1
   * Released 29/11/2017
   * Fixed a bug that resulted in BusyFit crashing under GSL 2.0 or higher
@@ -158,4 +163,4 @@ more details.
 You should have received a copy  of the GNU General Public License  along
 with BusyFit. If not, see http://www.gnu.org/licenses/.
 
-© 2017 Tobias Westmeier
+© 2019 Tobias Westmeier

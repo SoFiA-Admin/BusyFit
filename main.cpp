@@ -1,7 +1,7 @@
 /// ____________________________________________________________________ ///
 ///                                                                      ///
-/// BusyFit 0.3.1 (main.cpp) - Busy Function fitting programme           ///
-/// Copyright (C) 2017 Tobias Westmeier                                  ///
+/// BusyFit 0.3.2 (main.cpp) - Busy Function fitting programme           ///
+/// Copyright (C) 2019 Tobias Westmeier                                  ///
 /// ____________________________________________________________________ ///
 ///                                                                      ///
 /// Address:  Tobias Westmeier                                           ///
@@ -514,7 +514,7 @@ int printHelpMessage()
 	message.append("                            \033[35m┻━┛┗━┻┗━┛┗━┛\033[36m ┻ ┻ ┗━\033[0m\n");
 	message.append("                            \033[1;4mBusyFit User Manual\033[0m\n");
 	message.append("\n");
-	message.append("                               \033[0mVersion 0.3.1\033[0m\n");
+	message.append("                               \033[0mVersion 0.3.2\033[0m\n");
 	message.append("\n");
 	message.append("  \033[3mBusyFit is a stand-alone software for fitting the so-called Busy Function\033[0m\n");
 	message.append("  \033[3m(Westmeier et al. 2014, MNRAS, 438, 1176) to the integrated spectrum of a\033[0m\n");
@@ -774,7 +774,7 @@ int printHelpMessage()
 	message.append("\n");
 	message.append("\033[1mCopyright and licence\033[0m\n");
 	message.append("\n");
-	message.append("  © 2017 Tobias Westmeier\n");
+	message.append("  © 2019 Tobias Westmeier\n");
 	message.append("\n");
 	message.append("  This programme is free software:  you can redistribute it  and/or modify it\n");
 	message.append("  under the terms of the \033[4mGNU General Public License\033[0m as published  by the Free\n");
