@@ -112,8 +112,8 @@ meters, fixing individual parameters, etc.
 * BusyFit 0.3.2
   * Released 17/12/2019
   * Fixed a bug that resulted in BusyFit failing to compile on some
-    machines and compilers due to missing `std::` prefix before `isnan()`
-    and `isinf()`.
+    machines and compilers due to a missing `std::` prefix before
+    `isnan()` and `isinf()`.
 * BusyFit 0.3.1
   * Released 29/11/2017
   * Fixed a bug that resulted in BusyFit crashing under GSL 2.0 or higher
